@@ -1,4 +1,4 @@
-# Strawberry Starter 
+# Strawberry Starter 🍓
 
 A highly versatile starter kit to create your own Jamstack site with Eleventy.
 
