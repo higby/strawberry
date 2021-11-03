@@ -1,0 +1,7 @@
+---
+permalink: '/_redirects'
+layout: null
+eleventyExcludeFromCollections: true
+---
+{% for URL in site.urlAlias %}https://{{ URL }}/*    https://www.higby.io/:splat 301!
+{% endfor %}

@@ -1,0 +1,266 @@
+*:where(:not(iframe, canvas, img, svg, video, input[type="checkbox"], input[type="radio"]):not(svg *)) {
+  //all: unset;
+  //display: revert;
+}
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+:root {}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {}
+
+
+h1, h2, h3, h4, h5, h6 {}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+header {}
+
+nav {
+  ul, ol {}
+  li { }
+  a {
+    &:visited {}
+    &:hover {}
+    &:active {}
+  }
+}
+
+main {}
+
+article {}
+
+section {}
+
+aside {}
+
+footer {}
+
+address {}
+
+
+p, ol, ul, pre, blockquote, figure, hr, dl {}
+
+p {}
+
+ol, ul {}
+ol {
+  ol {}
+  ul {}
+}
+ul {
+  ul {}
+  ol {}
+}
+li {
+  li {}
+}
+
+pre {
+  code {}
+  samp {}
+}
+
+blockquote {}
+
+figure {}
+figcaption {}
+
+hr {}
+
+dl {}
+dt {}
+dd {}
+
+
+a {
+  &:visited {}
+  &:hover {}
+  &:active {}
+}
+
+strong, b {}
+
+em, i {}
+
+q {}
+cite {}
+
+s {}
+
+mark {}
+
+small {}
+sub {}
+sup {}
+
+code {}
+
+dfn {}
+abbr {}
+abbr[title] {}
+
+var {}
+kbd {
+  kbd {}
+}
+samp {}
+
+u {}
+
+data {}
+time {}
+
+
+del {}
+ins {}
+
+
+img {}
+svg {}
+video {}
+canvas {}
+audio {}
+object {}
+
+noscript {}
+
+
+table {}
+caption {}
+col:first-child {}
+thead {}
+tbody {}
+tfoot {}
+tr {}
+th {}
+td {}
+
+
+fieldset {
+  &:disabled {}
+}
+legend {}
+
+form {}
+
+label {}
+
+::placeholder {}
+:focus::placeholder {}
+
+/* Overall styling, e.g. vertical spacing */
+input, textarea, select, button {}
+
+/* `textarea` and `input` elements that share a similar look and similar styling
+capabilities */
+/* - common styling */
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="time"] {}
+/* - individual styling */
+textarea {}
+input[type="text"] {}
+input[type="password"] {}
+input[type="email"] {}
+input[type="tel"] {}
+input[type="number"] {}
+input[type="search"] {}
+input[type="url"] {}
+input[type="date"] {}
+input[type="datetime-local"] {}
+input[type="month"] {}
+input[type="week"] {}
+input[type="time"] {}
+/* Tick boxes */
+input[type="checkbox"], input[type="radio"] {}
+input[type="checkbox"]:checked, input[type="radio"]:checked {}
+input[type="checkbox"] {}
+input[type="checkbox"]:checked {}
+input[type="radio"] {}
+input[type="radio"]:checked {}
+/* Other input fields, some with limited styling capabilities */
+input[type="file"] {}
+input[type="color"] {}
+input[type="range"] {}
+
+select {}
+optgroup {}
+option {}
+option:checked {}
+datalist {}
+
+button,
+input[type="submit"] {}
+button:disabled,
+input[type="submit"]:disabled {}
+button.secondary {}
+button.secondary:disabled {}
+
+form.interacted:invalid {}
+
+form.interacted :invalid, form .touched:invalid {}
+:user-invalid {}
+:-moz-ui-invalid {}
+
+output {}
+
+progress {}
+meter {}
+
+
+details {}
+details[open] {}
+summary {}
+details[open] summary {}
+
+dialog {}
+dialog::backdrop {}
+
+
+:focus {}
+:focus:not(:focus-visible) {}
+:focus-visible {}
+
+
+@media (prefers-reduced-motion: reduce) {
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+@media (orientation: portrait) {
+}
+
+@media (orientation: landscape) {
+}
+
+@media print {
+}
+
+
+/*
+This file evolved from Natural Selection:
+https://github.com/frontaid/natural-selection
+*/

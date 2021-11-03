@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>{% include 'head.njk' %}</head>
+  <body>
+    <header><h1><a href="/">{{ site.name }}</a></h1></header>
+    <main>  
+      {{ content | safe }}
+    </main>
+    <footer>
+      <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener noreferrer">github</a></br>
+    </footer>
+  </body>
+</html>
+{% include 'higby.njk' %}
